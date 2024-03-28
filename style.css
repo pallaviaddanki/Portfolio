@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+  }
+  
+  header {
+    height: 100vh;
+    padding: 36px 100px;
+    background-image: url(./sai\ photo2\ .jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 90%;
+  }
+  
+  header nav img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav ul li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #98999a;
+    text-decoration: none;
+    transition: all ease 0.5s;
+  }
+  
+  header nav ul li a:hover,
+  header nav ul li .active {
+    color: #fbfbfb;
+  }
+  
+  .landing {
+    display: flex;
+    height: 90vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .landing .intro {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .landing .intro h3 {
+    color: #fbfbfb;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 5vw;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  .landing .intro h3 span {
+    color: dodgerblue;
+    font-weight: 900;
+    font-size: 32px;
+  }
+  
+  .landing .intro button {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  
+  button {
+    height: 48px;
+    width: 100px;
+    margin-top: 2.5vh;
+    margin-left: 1vw;
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    color: dodgerblue;
+    font-size: 16px;
+    transition: all ease 0.5s;
+  }
+  
+  button:hover {
+    background-color: dodgerblue;
+    color: #34353b;
+  }
+  
+  .about {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aboutme h1 {
+    padding-top: 50px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    font-size: 39px;
+    font-weight: 700;
+    color: dodgerblue;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  .aboutme p {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .aboutme p::before {
+    content: "◉";
+    color: #ccc;
+    margin-right: 15px;
+  }
+  
+  .education {
+    width: 90%;
+    padding: 35px 10%;
+    padding-top: 100px;
+    padding-left: 40%;
+  }
+  
+  .about img {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+  }
+  
+  .col .contents {
+    padding: 0 30px;
+    border-left: 2px solid blanchedalmond;
+  }
+  
+  .col .contents .box {
+    margin-bottom: 30px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid white;
+  }
+  
+  .col .contents .box:hover {
+    box-shadow: 0 3px 12px 0 white;
+    border: 1px solid transparent;
+  }
+  
+  .col .contents .box::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #11a372;
+    border: 2px solid white;
+  }
+  
+  .contents h1 {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  .box h4 {
+    font-size: 20px;
+    color: #2196f3;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  .box p {
+    color: white;
+  }
+  
+  .skills {
+    height: 90vh;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  
+  .skills h1 {
+    margin-left: 40%;
+    font-size: 32px;
+    font-weight: 700;
+    color: dodgerblue;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  .hello {
+    display: flex;
+    background-color: black;
+    margin-top: 30px;
+  }
+  
+  .hello img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .containers {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .containers h2 {
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 30
+  }
